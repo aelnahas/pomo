@@ -1,0 +1,9 @@
+[database]
+  task = "~/.pomo/db/tasks"
+  session = "~/.pomo/db/sessions"
+
+[timers]
+  focus = "50m0s"
+  short = "5m0s"
+  long = "15m"
+  interval = 2

@@ -1,0 +1,11 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  DATABASE_URL: 'sqlite3://pomo.db'
+
+tasks:
+  tidy:
+    cmds:
+      - go mod tidy
