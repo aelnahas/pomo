@@ -3,7 +3,7 @@
   session = "~/.pomo/db/sessions"
 
 [timers]
-  focus = "50m0s"
-  short = "10m0s"
-  long = "30m0s"
-  interval = 2
+  focus = "25m0s"
+  short = "5m0s"
+  long = "10m0s"
+  interval = 4

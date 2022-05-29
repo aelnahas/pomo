@@ -11,7 +11,13 @@ import (
 	"github.com/BurntSushi/toml"
 )
 
-const DefaultPath = "config.toml"
+const (
+	PomoDir    = "~/.pomo"
+	PomoConfig = "config.toml"
+	Template   = "config.template.toml"
+)
+
+var DefaultPath = fmt.Sprintf("%s/%s", PomoDir, PomoConfig)
 
 type Config struct {
 	Database Database    `toml:"database"`
